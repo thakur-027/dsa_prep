@@ -18,7 +18,7 @@ public:
             Node* node = it.first;
             int hd = it.second;
 
-            // store only first node at each HD
+            
             if (mp.find(hd) == mp.end()) {
                 mp[hd] = node->data;
             }
@@ -32,7 +32,6 @@ public:
             }
         }
 
-        // extract values in order
         for (auto it : mp) {
             result.push_back(it.second);
         }
