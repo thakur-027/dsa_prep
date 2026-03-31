@@ -20,13 +20,13 @@ public:
             root->right = deleteNode(root->right, key);
         }
         else {
-            // Case 1: No child
+            
             if (root->left == NULL && root->right == NULL) {
                 delete root;
                 return NULL;
             }
 
-            // Case 2: One child
+            
             if (root->left == NULL) {
                 TreeNode* temp = root->right;
                 delete root;
@@ -38,7 +38,7 @@ public:
                 return temp;
             }
 
-            // Case 3: Two children
+           
             TreeNode* successor = findMin(root->right);
             root->val = successor->val;
             root->right = deleteNode(root->right, successor->val);
