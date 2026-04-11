@@ -1,4 +1,5 @@
 class Solution {
+
 public:
 
     TreeNode* findMin(TreeNode* root) {
