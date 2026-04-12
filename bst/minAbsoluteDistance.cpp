@@ -10,6 +10,7 @@
  * };
  */
 
+
 class Solution {
 public:
     TreeNode* prev = NULL;
