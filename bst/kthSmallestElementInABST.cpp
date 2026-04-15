@@ -10,7 +10,6 @@
  * };
  */
 
-
 class Solution {
 public:
     int prevOrder = 0;
