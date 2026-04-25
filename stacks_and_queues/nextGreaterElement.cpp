@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
 
         stack<int> st;
@@ -19,8 +20,6 @@ public:
             st.push(nums2[i]);
         }
 
-        // Step 2: build result for nums1 using map
-        vector<int> ans;
 
         for(int num : nums1) {
             ans.push_back(mp[num]);
