@@ -5,7 +5,7 @@
 class Solution {
 public:
     string removeDuplicates(string s, int k) {
-        // Use the formal stack library
+        
         stack<pair<char, int>> st;
         
         for (char c : s) {
