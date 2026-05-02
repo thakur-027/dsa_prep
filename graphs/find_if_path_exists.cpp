@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool validPath(int n, vector<vector<int>>& edges, int source, int destination) {
-        // Step 1: Build adjacency list
+        
         vector<vector<int>> adj(n);
         for (int i = 0; i < edges.size(); i++) {
             vector<int> edge = edges[i];
