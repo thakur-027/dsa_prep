@@ -13,7 +13,7 @@ public:
             adj[v].push_back(u);
         }
 
-        // Step 2: BFS setup
+        
         vector<bool> visited(n, false);
         queue<int> q;
 
