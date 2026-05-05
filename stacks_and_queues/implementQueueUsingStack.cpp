@@ -5,7 +5,6 @@ public:
     stack<int> s2;
 
     MyQueue() {
-        
     }
     
     void push(int x) {
