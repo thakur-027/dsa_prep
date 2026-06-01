@@ -1,5 +1,6 @@
 class Solution {
 public:
+
    void backtrack(vector<int>& nums, int target, int start, vector<int>& curr, vector<vector<int>>& result) {
        if (target == 0) {
            result.push_back(curr);
