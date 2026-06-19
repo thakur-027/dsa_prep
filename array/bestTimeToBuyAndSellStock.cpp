@@ -1,5 +1,4 @@
 class Solution {
-
 public:
     int maxProfit(vector<int>& prices) {
         int maxProfit = 0, bestBuy = prices[0];
