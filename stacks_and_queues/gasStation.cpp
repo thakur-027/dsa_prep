@@ -13,7 +13,6 @@ public:
             totalFuel += diff;
             currFuel += diff;
 
-            // cannot reach next station
             if(currFuel < 0) {
                 start = i + 1;
                 currFuel = 0;
