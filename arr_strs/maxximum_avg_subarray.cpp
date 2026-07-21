@@ -1,6 +1,7 @@
 class Solution {
 
 public:
+
     double findMaxAverage(vector<int>& nums, int k) {
         double currSum = 0;
         for(double i=0; i<k; i++){
