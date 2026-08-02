@@ -2,6 +2,7 @@ class Solution {
 public:
     int search(vector<int>& nums, int target) {
 
+        
         int st = 0;
         int end = nums.size() - 1;
 
