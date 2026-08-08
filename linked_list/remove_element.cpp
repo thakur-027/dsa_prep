@@ -8,7 +8,7 @@ public:
         
         ListNode* curr = dummy;
         
-       
+    
         while (curr->next != NULL) {
             if (curr->next->val == val) {
                 curr->next = curr->next->next; 
