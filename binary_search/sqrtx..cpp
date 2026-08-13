@@ -2,9 +2,7 @@ class Solution {
 public:
     int mySqrt(int x) {
         if (x < 2) return x;
-
         int s = 1, e = x / 2;
-
         while (s <= e) {
             int mid = s + (e - s) / 2;
             long long square = (long long)mid * mid;
