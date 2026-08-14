@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     void inorder(TreeNode* root, vector<int>& ans){
         if(root == NULL) return;
 
