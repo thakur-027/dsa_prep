@@ -12,7 +12,6 @@ public:
 
             mp[key].push_back(word);
         }
-
         vector<vector<string>> result;
 
         for (auto it : mp) {
