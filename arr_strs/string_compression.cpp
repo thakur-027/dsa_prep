@@ -13,7 +13,6 @@ public:
                 i++;
                 count++;
             }
-
             // Write the character
             chars[write++] = current;
 
