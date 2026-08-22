@@ -5,7 +5,6 @@ public:
 
         int vowels = 0;
         int consonants = 0;
-
         for (char ch : word) {
             if (!isalnum(ch)) return false;
 
