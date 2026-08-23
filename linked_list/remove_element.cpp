@@ -6,7 +6,6 @@ public:
         dummy->next = head;
         
         ListNode* curr = dummy;
-        
     
         while (curr->next != NULL) {
             if (curr->next->val == val) {
