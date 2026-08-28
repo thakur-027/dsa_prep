@@ -16,7 +16,6 @@ public:
 
         if(!head || !head->next) return true;
 
-        // Step 1: find middle
         ListNode* slow = head;
         ListNode* fast = head;
 
@@ -25,10 +24,8 @@ public:
             fast = fast->next->next;
         }
 
-        // Step 2: reverse second half
         ListNode* secondHalf = reverse(slow->next);
 
-        // Step 3: compare
         ListNode* firstHalf = head;
 
         while(secondHalf){
