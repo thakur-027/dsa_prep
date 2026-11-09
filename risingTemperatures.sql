@@ -1,3 +1,4 @@
+
 select w1.id
 from Weather w1
 join Weather w2
