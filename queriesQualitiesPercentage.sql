@@ -1,3 +1,4 @@
+
 SELECT 
     query_name,
     ROUND(AVG(rating * 1.0 / position), 2) AS quality,
